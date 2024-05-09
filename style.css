@@ -1,3 +1,4 @@
+
 body{
     margin: 0 50px;
 }
@@ -5,21 +6,19 @@ body{
     display:flex;
     gap:50px;
 }
-#posts{
-    width:400px;
-}
-#posts div{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
 .options{
     display:flex;
-    gap:25px;
+    gap:20px;
 }
 i{
     cursor:pointer;
 }
 #msg{
     color: red;
+}
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
 }
